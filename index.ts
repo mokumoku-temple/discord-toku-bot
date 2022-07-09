@@ -1,4 +1,4 @@
-const { Client, Intents } = require('discord.js');
+import { Client, Intents } from 'discord.js';
 require('dotenv').config();
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
